@@ -1,0 +1,77 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-image:url('./eli.jpg');
+    background-size:100%;
+    background-position:cover;
+    background-repeat: no-repeat;
+}
+
+#navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left:50px;
+    padding-right:0px;
+    margin-top:0px;
+    background-color: rgb(225, 241, 255);
+    box-shadow:3px 5px 10px 1px rgba(0,0,0,0.3);
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar li a{
+    padding:14px 30px;
+    display: block;
+    outline: none;
+    font-size:1.2em;
+    text-decoration: none;
+}
+
+#navbar li a:hover:not(.active){
+    background-color: rgb(87, 164, 231);
+    color:white;
+}
+
+.active{
+    background-color: rgb(14, 93, 161);
+    color:aliceblue;
+}
+    
+
+.q-area{
+    text-align:center;
+    width:70vh;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-sizing:border-box;
+    background-color:rgba(0,0,0,0.3);
+    padding:40px;
+     box-shadow:3px 5px 10px 1px rgba(0,0,0,0.6);
+}
+
+#text{
+    color:aliceblue;
+}
+
+#btn{
+    font-weight: bold;
+    font-size:1em;
+    padding:1.5vh;
+    border:3px solid rgb(24, 10, 11);
+    border-radius: 10px;
+    position: absolute;
+    top:65%;
+    left:60%;
+    transform:translate(-50%, -50%);
+    background-color:rgb(225, 241, 255);
+
+}
+
+#btn:hover{
+    background:rgb(49, 15, 15);
+    color:aliceblue;
+}
